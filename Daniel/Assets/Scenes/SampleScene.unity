@@ -293,8 +293,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.5135794, y: 4.506722, z: 2.5747056}
-  m_Center: {x: 0.0004696846, y: 2.2163494, z: 0.064097166}
+  m_Size: {x: 4.135764, y: 4.500703, z: 2.7134118}
+  m_Center: {x: 0.31156206, y: 2.219359, z: 0.13345027}
 --- !u!54 &669277817
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -344,6 +344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 5
+  TurningSpeed: 10
   forceVector: {x: 0, y: 10, z: 0}
 --- !u!4 &669277820 stripped
 Transform:
@@ -617,14 +618,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0, y: 0.262578, z: -0, w: 0.9649108}
-  m_LocalPosition: {x: -0.02, y: 4.16, z: -4.7}
+  m_LocalRotation: {x: 0.21596241, y: 0.07621594, z: -0.023578124, w: 0.9731369}
+  m_LocalPosition: {x: -0.51, y: 6.7, z: -6.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 669277820}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 30.446, z: 0}
+  m_LocalEulerAnglesHint: {x: 25.082, y: 8.774, z: -0.821}
 --- !u!1 &1010527489
 GameObject:
   m_ObjectHideFlags: 0
